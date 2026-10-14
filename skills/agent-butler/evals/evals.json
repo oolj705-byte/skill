@@ -1,0 +1,17 @@
+{
+  "skill_name": "agent-butler",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want to start a small project to monitor my local disk space and send a summary to my Slack. I need a research report on the best tools for this on Windows, a Python script to do it, and a plan for how to schedule it daily.",
+      "expected_output": "A report covering Windows disk monitoring tools, a working Python script, and a scheduling plan (e.g., Task Scheduler).",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I want to optimize the performance of my data processing pipeline. Explore the workspace for files in the `src/processing` directory, identify bottlenecks, and create a plan to implement multi-threading, providing a sample implementation for the main loop.",
+      "expected_output": "A list of files in src/processing, a performance optimization plan focusing on multi-threading, and a sample multi-threaded main loop code.",
+      "files": []
+    }
+  ]
+}
